@@ -19,9 +19,8 @@ def log_items(items, filename="items.csv"):
         writer.writerow([])
         writer.writerow(["Total", total]) 
 
-
+        
 items =[]
-
 while True:
     name = input("enter item name (or 'done' to finish): ")
     if name.lower() == "done":
